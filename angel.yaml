@@ -18,7 +18,7 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
 proxies:
-  - name: "angel"
+  - name: "hysteria-ygkkk"
     type: hysteria
     server: angel.mapeilin.com
     port: 2000
@@ -34,7 +34,7 @@ proxy-groups:
   - name: "PROXY"
     type: select
     proxies:
-    - angel
+     - hysteria-ygkkk
 rule-providers:
   reject:
     type: http
