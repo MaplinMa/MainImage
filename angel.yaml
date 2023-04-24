@@ -26,8 +26,8 @@ proxies:
     alpn:
       - h3
     protocol: udp
-    up: 40
-    down: 200
+    up: 20
+    down: 100
     sni: angel.mapeilin.com
     skip-cert-verify: false
 proxy-groups:
