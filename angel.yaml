@@ -30,11 +30,7 @@ proxies:
     down: 100
     sni: angel.mapeilin.com
     skip-cert-verify: false
-proxy-groups:
-  - name: "PROXY"
-    type: select
-    proxies:
-     - hysteria-ygkkk
+
 rule-providers:
   reject:
     type: http
